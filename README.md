@@ -17,13 +17,26 @@ pip -r requirements-dev.txt
 
 # slack setting
 vi function.py
+```
 
+### Deploy
+
+using lambda-uploader.  
+https://github.com/rackerlabs/lambda-uploader
+
+```
 # lambda-uploader setting
 vi lambda.json
 
 # lambda upload
 lambda-uploader
-# or ./build.sh and upload zip file from AWS ManagementConsole
+```
+
+or zip file upload.
+
+```
+./build.sh
+# and upload zip file from AWS ManagementConsole.
 ```
 
 # Test
