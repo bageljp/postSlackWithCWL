@@ -2,6 +2,8 @@
 
 CloudWatchLogs to Slack
 
+![CloudWatchLogs to Slack.com](https://raw.githubusercontent.com/bageljp/postSlackWithCWL/master/img/slack.png "CloudWatchLogs to Slack.com")
+
 # Installation
 
 ### Slack.com settings
