@@ -1,6 +1,7 @@
-from slacker import Slacker, IncomingWebhook
+from slacker import IncomingWebhook
 
 DEFAULT_TIMEOUT = 10
+
 
 class Slack(object):
 
@@ -26,4 +27,3 @@ class Slack(object):
     def __initial_data(self):
         for prop in self.__propeties:
             setattr(self, prop, None)
-
