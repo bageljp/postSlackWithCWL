@@ -6,9 +6,9 @@ import zlib
 import base64
 
 SLACK_INCOMING_WEBHOOK_URL = 'https://hooks.slack.com/services/XXXXXXXXXX'
-#SLACK_USERNAME = 'CloudWatchLogs'
-#SLACK_EMOJI = ':ghost:'
-#SLACK_CHANNEL = '#slack_channel'
+SLACK_USERNAME = 'CloudWatchLogs'
+SLACK_EMOJI = ':ghost:'
+SLACK_CHANNEL = '#slack_channel'
 
 
 def lambda_handler(event, context):
@@ -41,7 +41,6 @@ def lambda_handler(event, context):
             'title': 'CloudWatchLogs',
             'color': 'danger',
             'fallback': log_json['message'],
-            #'pretext': log_json['message'],
             'fields': fields
             })
 
