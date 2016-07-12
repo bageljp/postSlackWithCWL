@@ -1,3 +1,7 @@
+[![Code Climate](https://codeclimate.com/github/bageljp/postSlackWithCWL/badges/gpa.svg)](https://codeclimate.com/github/bageljp/postSlackWithCWL)
+[![Test Coverage](https://codeclimate.com/github/bageljp/postSlackWithCWL/badges/coverage.svg)](https://codeclimate.com/github/bageljp/postSlackWithCWL/coverage)
+[![Issue Count](https://codeclimate.com/github/bageljp/postSlackWithCWL/badges/issue_count.svg)](https://codeclimate.com/github/bageljp/postSlackWithCWL)
+
 # About
 
 CloudWatchLogs to Slack
