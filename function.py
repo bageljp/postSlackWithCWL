@@ -13,7 +13,7 @@ SLACK_CHANNEL = '#slack_channel'
 
 def lambda_handler(event, context):
     # cloudwatchlogs
-    print 'event: %s' % json.dumps(event, indent=2)
+    print 'event: {}'.format(json.dumps(event, indent=2))
     data = zlib.decompress(base64.b64decode(event['awslogs']['data']), 16+zlib.MAX_WBITS)
     data_json = json.loads(data)
     print 'data: %s' % json.dumps(data_json, indent=2)
